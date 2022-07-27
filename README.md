@@ -1,3 +1,1 @@
 # Binary trees! 🌳
-
-xd 😏
