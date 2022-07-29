@@ -83,3 +83,13 @@ This function is used only for visualization purposes. You don’t have to push 
     <li>When created, a node does not have any child</li>
     <li>Your function must return a pointer to the new node, or&nbsp;<code>NULL</code> on failure</li>
 </ul>
+
+<p>Now the next step is to insert a node precisely to the left, so let&apos;s try that</p>
+<p>Write a function that inserts a node as the left-child of another node</p>
+<ul>
+    <li>Prototype:&nbsp;<code>binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);</code></li>
+    <li>Where&nbsp;<code>parent</code> is a pointer to the node to insert the left-child in</li>
+    <li>And&nbsp;<code>value</code> is the value to store in the new node</li>
+    <li>Your function must return a pointer to the created node, or&nbsp;<code>NULL</code> on failure or if&nbsp;<code>parent</code> is&nbsp;<code>NULL</code></li>
+    <li>If&nbsp;<code>parent</code> already has a left-child, the new node must take its place, and the old left-child must be set as the left-child of the new node.</li>
+</ul>
