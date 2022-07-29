@@ -72,3 +72,14 @@ Print function
 To match the examples in the tasks, you are given this function
 
 This function is used only for visualization purposes. You don’t have to push it to your repo. It may not be used during the correction
+
+<p>Initially we will perform the perhaps basic operations that we can perform</p>
+<p>Initially we will perform the perhaps basic operations that we can perform. Some conditions must also be taken into account, for the most efficient development of our code and always thinking about the possible minimum errors that could occur:</p>
+<p>Write a function that creates a binary tree node</p>
+<ul>
+    <li>Prototype:&nbsp;<code>binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);</code></li>
+    <li>Where&nbsp;<code>parent</code> is a pointer to the parent node of the node to create</li>
+    <li>And&nbsp;<code>value</code> is the value to put in the new node</li>
+    <li>When created, a node does not have any child</li>
+    <li>Your function must return a pointer to the new node, or&nbsp;<code>NULL</code> on failure</li>
+</ul>
