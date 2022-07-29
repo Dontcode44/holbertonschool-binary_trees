@@ -15,3 +15,4 @@
 <p>Depth First Traversals:&nbsp;<br>(a) Inorder (Left, Root, Right) : 4 2 5 1 3&nbsp;<br>(b) Preorder (Root, Left, Right) : 1 2 4 5 3&nbsp;<br>(c) Postorder (Left, Right, Root) : 4 5 2 3 1<br>Breadth-First or Level Order Traversal: 1 2 3 4 5&nbsp;<br>Please see <a href="https://www.geeksforgeeks.org/level-order-tree-traversal/">this&nbsp;</a>post for Breadth-First Traversal.&nbsp;</p>
 <p><br></p>
 <p><br></p>
+
