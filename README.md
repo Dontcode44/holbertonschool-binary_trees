@@ -16,3 +16,7 @@
 <p><br></p>
 <p><br></p>
 
+<p>Now, let&apos;s see a maybe slightly larger example of binary trees. Perhaps with more numbers it will be easier to understand how it works</p>
+<p><strong>One more example:</strong>&nbsp;</p>
+<p><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Preorder-from-Inorder-and-Postorder-traversals.jpg" alt=""></p>
+<p><br></p>
