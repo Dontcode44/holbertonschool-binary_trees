@@ -68,3 +68,7 @@ typedef struct binary_tree_s binary_tree_t;
 </code></pre>
 <h4>Max Binary Heap</h4>
 <pre><code>typedef struct binary_tree_s heap_t;</code></pre>
+Print function
+To match the examples in the tasks, you are given this function
+
+This function is used only for visualization purposes. You don’t have to push it to your repo. It may not be used during the correction
