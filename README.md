@@ -37,3 +37,34 @@
     <li>Don&rsquo;t forget to push your header file</li>
     <li>All your header files should be include guarded</li>
 </ul>
+
+<p>We will also use a defined structure to be able to guide us and apply the various ways that there are to traverse a binary tree.</p>
+<h3>Data structures</h3>
+<p>Please use the following data structures and types for binary trees. Don&rsquo;t forget to include them in your header file.</p>
+<h4>Basic Binary Tree</h4>
+<pre><code>/**
+ * struct binary_tree_s - Binary tree node
+ *
+ * @n: Integer stored in the node
+ * @parent: Pointer to the parent node
+ * @left: Pointer to the left child node
+ * @right: Pointer to the right child node
+ */
+struct binary_tree_s
+{
+    int n;
+    struct binary_tree_s *parent;
+    struct binary_tree_s *left;
+    struct binary_tree_s *right;
+};
+
+typedef struct binary_tree_s binary_tree_t;
+</code></pre>
+<h4>Binary Search Tree</h4>
+<pre><code>typedef struct binary_tree_s bst_t;
+</code></pre>
+<h4>AVL Tree</h4>
+<pre><code>typedef struct binary_tree_s avl_t;
+</code></pre>
+<h4>Max Binary Heap</h4>
+<pre><code>typedef struct binary_tree_s heap_t;</code></pre>
